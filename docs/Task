@@ -1,0 +1,22 @@
+
+Task
+
+A task describes a unit of work.
+
+A task may be defined as a series of steps
+
+A task is always in one of the following states:
+not started, in progress, completed, blocked
+
+One task may be dependent on another task.
+
+A task may be blocked by an impediment.
+	Task.addImpediment(impediment)
+
+
+
+
+Story
+	tasks
+		dependencies
+		impediments

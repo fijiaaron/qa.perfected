@@ -1,0 +1,13 @@
+Impediment
+
+An impediment blocks a task from completing
+
+
+Is a dependent task an impediment or something different?
+
+task.addImpediment(new Impediment("needs task to be completed first"))
+
+task.addDependency(task)
+
+
+

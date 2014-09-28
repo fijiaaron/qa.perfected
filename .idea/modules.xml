@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/perfected-ninja/src/main/main.iml" filepath="$PROJECT_DIR$/perfected-ninja/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/perfected-ninja/src/main/main1.iml" filepath="$PROJECT_DIR$/perfected-ninja/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/perfected.iml" filepath="$PROJECT_DIR$/perfected.iml" />
+      <module fileurl="file://$PROJECT_DIR$/perfected-core/perfected-core.iml" filepath="$PROJECT_DIR$/perfected-core/perfected-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/perfected-mongodb/perfected-mongodb.iml" filepath="$PROJECT_DIR$/perfected-mongodb/perfected-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/perfected-mysql/perfected-mysql.iml" filepath="$PROJECT_DIR$/perfected-mysql/perfected-mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/perfected-web/perfected-web.iml" filepath="$PROJECT_DIR$/perfected-web/perfected-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/perfected-ninja/src/test/test.iml" filepath="$PROJECT_DIR$/perfected-ninja/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/perfected-ninja/src/test/test1.iml" filepath="$PROJECT_DIR$/perfected-ninja/src/test/test1.iml" />
+    </modules>
+  </component>
+</project>
+

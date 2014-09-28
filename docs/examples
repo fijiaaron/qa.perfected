@@ -1,0 +1,40 @@
+
+
+project = app.createProject(name, description)
+user = app.createUser(name, email, password)
+role = app.Roles(role)
+
+story = app.createStory(title, details, acceptanceCriteria, size)
+
+
+project.addUser(user, role)
+project.setMileStone(date)
+
+
+project.milestone.AddStory()
+
+
+project.setMilestone(date, stories)
+
+
+app.login(user, credentials)
+app.createProject(project)
+app.projects(project).setMilestone(milestone)
+app.projects(project).milestones(milestone).addStory(story)
+app.stories(story).addTask(task)
+app.stories(story).tasks(task).
+
+story.addTask(task2).after(task1)
+
+story.tasks.add(task)
+story.tasks.
+
+
+project.backlog.stories.add(story)
+project.milestone.stories.add(story)
+
+milestone.
+
+iteration.start = date(today)
+iteration.completion = date(2 weeks)
+	
