@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="perfected-ninja:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="perfected-ninja-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="perfected-ninja:war exploded" />
+    </root>
+  </artifact>
+</component>
