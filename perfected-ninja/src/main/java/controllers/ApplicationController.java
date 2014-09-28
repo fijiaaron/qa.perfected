@@ -31,10 +31,6 @@ public class ApplicationController {
 
     }
 
-    public Result products() {
-
-        return Results.text();
-    }
 
     public Result helloWorldJson() {
         

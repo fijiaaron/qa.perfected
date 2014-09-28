@@ -13,7 +13,7 @@ public class PerfectedController {
         return Results.html();
     }
 
-    public Result product() {
+    public Result products() {
         return Results.html();
     }
 }
