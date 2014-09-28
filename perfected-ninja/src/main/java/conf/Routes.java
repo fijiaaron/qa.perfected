@@ -20,7 +20,6 @@ package conf;
 import ninja.AssetsController;
 import ninja.Router;
 import ninja.application.ApplicationRoutes;
-import controllers.ApplicationController;
 import controllers.PerfectedController;
 
 public class Routes implements ApplicationRoutes {
@@ -30,20 +29,20 @@ public class Routes implements ApplicationRoutes {
         
         router.GET().route("/").with(PerfectedController.class, "index");
         router.GET().route("/products").with(PerfectedController.class, "products");
+        router.GET().route("/products/{productName}").with(PerfectedController.class, "products");
+
 
         ///////////////////////////////////////////////////////////////////////
         // Assets (pictures / javascript)
         ///////////////////////////////////////////////////////////////////////    
         router.GET().route("/assets/webjars/{fileName: .*}").with(AssetsController.class, "serveWebJars");
-
         router.GET().route("/assets/{fileName: .*}").with(AssetsController.class, "serveStatic");
-
 
 
         ///////////////////////////////////////////////////////////////////////
         // Index / Catchall shows index page
         ///////////////////////////////////////////////////////////////////////
-        router.GET().route("/.*").with(ApplicationController.class, "index");
+        router.GET().route("/.*").with(PerfectedController.class, "unknown");
     }
 
 }

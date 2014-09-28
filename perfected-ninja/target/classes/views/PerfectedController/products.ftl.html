@@ -1,0 +1,16 @@
+<#import "../diio/layout.ftl.html" as layout>
+    <@layout.diioLayout "Products page">
+
+    <h2> Products </h2>
+
+    <ul>
+    <#list products as product>
+        <li>
+            ${product.productName}
+
+        </li>
+    </#list>
+    </ul>
+
+    ${selectedProduct}
+</@layout.diioLayout>

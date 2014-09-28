@@ -1,0 +1,31 @@
+<#import "../diio/layout.ftl.html" as layout>
+    <@layout.diioLayout "Products page">
+
+    <h2> Products </h2>
+
+
+    <ul>
+    <#list products as product>
+        <li>
+            ${product.productName}
+
+            <#if product.productName ?matches(selectedProduct, "i")>
+                selected
+            </#if>
+        </li>
+    </#list>
+    </ul>
+
+    <div>
+        selected product: ${selectedProduct}
+    </div>
+
+    <select name="product">
+            <option value="">-- choose a product --</option>
+    <#list products as product>
+        <option value="${product.productName}" <#if product.productName ?matches(selectedProduct, "i")>selected</#if>>${product.productName}</option>
+    </#list>
+    </select>
+
+
+</@layout.diioLayout>
